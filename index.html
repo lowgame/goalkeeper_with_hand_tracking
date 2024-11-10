@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goalkeeper - Hand Tracking Game</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- Import Three.js as module -->
+    <script async src="https://unpkg.com/es-module-shims"></script>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.159.0/build/three.module.js"
+        }
+    }
+    </script>
+    <!-- Import MediaPipe with HTTPS -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/hands.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.3.1640029074/camera_utils.min.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+        <video id="input-video" playsinline></video>
+        <div id="warning-message">Please raise your hands</div>
+    </div>
+
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html> 

@@ -1,0 +1,16 @@
+{
+  "name": "goalkeeper-game",
+  "version": "1.0.0",
+  "description": "A browser-based goalkeeper game with hand tracking",
+  "main": "server.js",
+  "scripts": {
+    "generate-certs": "node generate-certificates.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "selfsigned": "^2.1.1"
+  }
+} 
