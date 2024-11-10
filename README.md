@@ -1,4 +1,4 @@
-# Klasik Mekanikten Sıkıcıdır, ThreeJS değil
+# Klasik Mekanikten Sıkıcıdır, ThreeJS değil!
 
 Merhaba! Bu oyun, klasik mekaniğe çalışırken sıkılıp (klasik mekanik equation of motion bulmaktan ibaret :D), "Neden biraz eğlenmiyoruz?" dediğim bir anda, 3 saat içinde AI yardımıyla ortaya çıktı. Sonuç? %70 AI, %30 ben! Yani, bu projede AI'nin klavye başında ter döktüğünü söyleyebiliriz :D
 
@@ -27,6 +27,9 @@ Bu proje, AI ile iş birliğinin ne kadar eğlenceli ve verimli olabileceğinin 
 
 Keyifli kodlamalar! 🚀
 
+### UYARI!
+
+Oyunda debug modu vb. açık, ayarlar sağ üstte olmasına rağmen elimizi sağ alta getirmemiz gerekiyor, sınavıma az kaldığı için uğraşmadım.
 
 ## Son not:
 
